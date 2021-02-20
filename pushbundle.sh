@@ -8,4 +8,3 @@ GIT_REMOTE="https://$GIT_CREDS@$GIT_REMOTE_URL"
 
 git remote add origin $GIT_REMOTE
 git push origin master --force
-echo "hello $SOMEONE!"

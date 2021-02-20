@@ -22,7 +22,7 @@ Create Azure App Service using Azure CLI
 
 ``` bash
 // Create resource group
-az group create --name <my-resource-group> --location westeuropee
+az group create --name <my-resource-group> --location westeurope
 
 // Create App Service Plan
 az appservice plan create --name <app-plan-name> --resource-group <my-resource-group> --sku B1
