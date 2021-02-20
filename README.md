@@ -2,10 +2,10 @@
 Sample of how to pre-bundle an Azure Web App Deployment into a Docker Container.
 
 ## Why
-Bundling and deploying into Azure App Service is quite easy Bundling and deploying into Azure App Service where each Azure App Service has a little difference in configuration or content can be very time consuming. Deploying those in mass lets say 10 at the time, can be extremely time consuming.
+Bundling and deploying into Azure App Service is quite easy. Bundling and deploying into Azure App Service where each Azure App Service has a little difference in configuration and content can be very time consuming. Deploying those in mass lets say 10 at the time, can be extremely time consuming.
 
 ## What
-Provision and configure bundle when the container is build, eliminating time spend needed to unzip, initialize git and other long running operations in the deployment phase.
+In order to minimalize the amount of work that needs to be done up front, we can provision and configure a bundle inside a docker image and shave some time of a full deployment.
 
 ## How
 Building docker image does the following.
